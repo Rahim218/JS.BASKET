@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+    }
+
+    list-style: none;
+}
+
+header {
+    background-color: #ffffff;
+    border: 1px solid #ec5c42;
+
+    .logo {
+        img {
+            width: 80%;
+        }
+    }
+
+    .basket {
+
+        a {
+            position: relative;
+        }
+
+        i {
+            color: #2e2d7e;
+            font-size: 30px;
+        }
+
+        span {
+            background-color: #ec5c42;
+            padding: 1px 8px;
+            border-radius: 100%;
+            color: white;
+            position: absolute;
+            top: -16px;
+            left: 15px;
+        }
+    }
+
+
+}
+
+#cards {
+    padding: 2rem 0;
+
+    .card-box {
+        padding: 15px;
+        height: 500px;
+        border: none;
+
+        &:hover {
+            box-shadow: 0px 0px 10px #b3b3b3;
+            border: 1px solid #2e2d7e;
+        }
+
+        .top {
+            img {
+                width: 100%;
+            }
+        }
+
+        .title {
+
+            h2 {
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+
+        .bottom {
+
+            span {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            button {
+                padding: 10px 25px;
+                background-color: #ec5c42;
+                color: #ffffff;
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+.message {
+    background-color: #2e2d7e;
+    width: 50%;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+    h1 {
+        color: #ffffff
+    }
+}
+
+.product {
+    margin-top: 30px;
+    table {
+        
+        border: 1px solid rgba(0, 0, 0, .1);
+        margin: 0 -1px 24px 0;
+        text-align: left;
+        width: 100%;
+        border-collapse: separate;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+        thead {
+            background-color: #e8eaeb;
+            padding: 9px 12px;
+            tr{
+                th{
+                    text-align: center;
+                    padding: 9px 12px;
+                    font-weight: 700;
+                }
+            }
+        }
+        tbody{
+            tr{
+                
+                td{
+                    text-align: center;
+                    &:nth-child(2){
+                       width: 50px;
+                       text-align: center;
+                        img{
+                            width: 70%;
+                            display: inline-block;
+                        }
+                    }
+                   input{
+                    border: none;
+                   }
+                }
+            }
+        }
+    }
+
+    
+}
+#upd{
+    text-align: center;
+}
+
+#update{
+    width: 20%;
+    
+}
+
+.msg-text{
+    
+    background-color: rgb(46, 75, 46);
+    position: absolute;
+    bottom: 25px;
+    right: -305px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    transition: 1s;
+    
+  
+
+    
+    
+    p{
+       
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 !important;
+    }
+}
+body{
+    overflow-x: hidden;
+}

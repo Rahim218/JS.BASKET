@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffffff;
+  border: 1px solid #ec5c42;
+}
+header .logo img {
+  width: 80%;
+}
+header .basket a {
+  position: relative;
+}
+header .basket i {
+  color: #2e2d7e;
+  font-size: 30px;
+}
+header .basket span {
+  background-color: #ec5c42;
+  padding: 1px 8px;
+  border-radius: 100%;
+  color: white;
+  position: absolute;
+  top: -16px;
+  left: 15px;
+}
+
+#cards {
+  padding: 2rem 0;
+}
+#cards .card-box {
+  padding: 15px;
+  height: 500px;
+  border: none;
+}
+#cards .card-box:hover {
+  box-shadow: 0px 0px 10px #b3b3b3;
+  border: 1px solid #2e2d7e;
+}
+#cards .card-box .top img {
+  width: 100%;
+}
+#cards .card-box .title h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#cards .card-box .title h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#cards .card-box .bottom span {
+  font-size: 18px;
+  font-weight: bold;
+}
+#cards .card-box .bottom button {
+  padding: 10px 25px;
+  background-color: #ec5c42;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.message {
+  background-color: #2e2d7e;
+  width: 50%;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.message h1 {
+  color: #ffffff;
+}
+
+.product {
+  margin-top: 30px;
+}
+.product table {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 -1px 24px 0;
+  text-align: left;
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.product table thead {
+  background-color: #e8eaeb;
+  padding: 9px 12px;
+}
+.product table thead tr th {
+  text-align: center;
+  padding: 9px 12px;
+  font-weight: 700;
+}
+.product table tbody tr td {
+  text-align: center;
+}
+.product table tbody tr td:nth-child(2) {
+  width: 50px;
+  text-align: center;
+}
+.product table tbody tr td:nth-child(2) img {
+  width: 70%;
+  display: inline-block;
+}
+.product table tbody tr td input {
+  border: none;
+}
+
+#upd {
+  text-align: center;
+}
+
+#update {
+  width: 20%;
+}
+
+.msg-text {
+  background-color: rgb(46, 75, 46);
+  position: absolute;
+  bottom: 25px;
+  right: -305px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  transition: 1s;
+}
+.msg-text p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 !important;
+}
+
+body {
+  overflow-x: hidden;
+}/*# sourceMappingURL=style.css.map */
